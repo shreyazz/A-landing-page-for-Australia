@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/aus-style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@500;700&family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Australia</title>
+  </head>
+  <body>
+      <img src="./assets/cover.jpg" alt="" class="cover-img">
+      <h2 class="top10">Top 10 places to &nbsp; &nbsp; &nbsp; explore in Australia :</h2>
+      <img src="./assets/mag.svg" alt="" class="mag">
+        <!-- Opera House -->
+        <div class="opera" data-tilt style="transform-style: preserve-3d">
+            <img src="./assets/opera.jpg" alt="" class="opera-img ">
+            <a href="#" class="opera-text" style="transform: translateZ(20px)">Opera House</a>
+        </div>
+        <!-- Great Barrier Reef -->
+        <div class="gbreef" data-tilt style="transform-style: preserve-3d">
+             <img src="./assets/gb1.jpg" alt="" class="gbreef-img ">
+            <a href="#" class="gbreef-text" style="transform: translateZ(20px)">Great Barrier Reef</a>
+        </div>
+        <!-- -- -->
+        <div class="bm" data-tilt style="transform-style: preserve-3d">
+            <img src="./assets/bm.jpg" alt="" class="bm-img ">
+           <a href="#" class="bm-text" style="transform: translateZ(20px)">Blue Mountain National Park</a>
+       </div>
+       <!-- -- -->
+       <div class="mel" data-tilt style="transform-style: preserve-3d">
+        <img src="./assets/mel.jpg" class="mel-img">
+       <a href="#" class="mel-text" style="transform: translateZ(20px)">Melbourne</a>
+       </div>
+       <!-- -- -->
+       <div class="bb" data-tilt style="transform-style: preserve-3d">
+        <img src="./assets/bb.jpg" class="bb-img">
+       <a href="#" class="bb-text" style="transform: translateZ(20px)">Bondi Beach</a>
+       </div>
+       <!-- --- -->
+       <div class="dt" data-tilt style="transform-style: preserve-3d">
+        <img src="./assets/dt.jpg" class="dt-img">
+       <a href="#" class="dt-text" style="transform: translateZ(20px)">Daintree National Park</a>
+       </div>
+       <!-- -- -->
+       <div class="fr" data-tilt style="transform-style: preserve-3d">
+        <img src="./assets/fr2.jpg" class="fr-img">
+       <a href="#" class="fr-text" style="transform: translateZ(20px)">Fraser Island</a>
+       </div>
+       <!-- -- -->
+       <div class="kd" data-tilt style="transform-style: preserve-3d">
+        <img src="./assets/kd.jpg" class="kd-img">
+       <a href="#" class="kd-text" style="transform: translateZ(20px)">Kakadu National Park</a>
+       </div>
+       <!-- -- -->
+       <div class="go" data-tilt style="transform-style: preserve-3d">
+        <img src="./assets/go.jpg" class="go-img">
+       <a href="#" class="go-text" style="transform:translateZ(20px)">Great Ocean Road</a>
+       </div>
+       <!-- -- -->
+       <div class="kang" data-tilt style="transform-style: preserve-3d">
+        <img src="./assets/kang.jpg" class="kang-img">
+       <a href="#" class="kang-text" style="transform:translateZ(20px)" onclick="location.href = 'www.yoursite.com';" >Kangroo Island</a>
+       </div>
+       <div class="cover1">
+       </div>
+      <div class="horz"></div>
+    
+
+
+      <!-- ----------------------animation------------------- -->
+    <main>
+      <section class="landing">
+        <p class="big-text">Australia</p>
+      </section>
+    </main>
+    <div class="intro">
+      <div class="intro-text">
+        <h1 class="hide">
+          <span class="text">Best places in</span>
+        </h1>
+        <h1 class="hide">
+          <span class="text">Australia</span>
+        </h1>
+        <h1 class="hide">
+          <span class="text">one click away!</span>
+        </h1>
+      </div>
+
+    </div>
+    <div class="slider"></div>
+
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+      integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/tilt.jquery.js"></script>
+    <script src="./js/index.js"></script>
+    <!-- JQuery code -->
+    <script>
+    $('.opera').tilt({
+      scale: 1.1
+    })
+    $('.gbreef').tilt({
+      scale: 1.1
+    })
+    $('.kd').tilt({
+      scale: 1.1
+    })
+    $('.bm').tilt({
+      scale: 1.1
+    })
+    $('.bb').tilt({
+      scale: 1.1
+    })
+    $('.dt').tilt({
+      scale: 1.1
+    })
+    $('.fr').tilt({
+      scale: 1.1
+    })
+    $('.go').tilt({
+      scale: 1.1
+    })
+    $('.kang').tilt({
+      scale: 1.1
+    })
+    $('.mel').tilt({
+      scale: 1.1
+    })
+    </script>
+  </body>
